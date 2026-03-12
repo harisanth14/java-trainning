@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        char e;
+        Scanner sl=new Scanner(System.in);
+        e=sl.next().charAt(0);
+        System.out.println(e);
+    }
+}

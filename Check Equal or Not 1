@@ -1,0 +1,24 @@
+import java.io.*; 
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) 
+    {
+        int z,x;
+        
+        Scanner sc = new Scanner(System.in);
+         z =sc.nextInt();
+         x =sc.nextInt();
+        if( z == x)
+        {
+            System.out.println("Equal");
+        }
+        else
+        {
+            System.out.println("Not Equal");
+        }
+            
+        
+    }
+}

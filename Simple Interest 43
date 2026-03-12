@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       int x,y,z;
+        Scanner hj=new Scanner(System.in);
+        x=hj.nextInt();
+        y=hj.nextInt();
+        z=hj.nextInt();
+        System.out.println((x*y*z)/100);
+    }
+}

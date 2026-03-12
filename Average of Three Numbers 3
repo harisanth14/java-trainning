@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int x,y,z;
+        Scanner ss=new Scanner(System.in);
+        x=ss.nextInt();
+        y=ss.nextInt();
+        z=ss.nextInt();
+        System.out.println((x+y+z)/3);
+    }
+        
+}
